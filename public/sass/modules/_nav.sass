@@ -1,0 +1,57 @@
+nav
+    width: $screenWidth
+    height: 60px
+    background-color: $bg-grey
+    display: flex
+    flex-direction: row
+    gap: 5%
+
+    div
+        &:first-of-type
+            display: flex
+            justify-content: center
+            align-items: center
+            height: 100%
+            width: 40%
+
+            p
+                color: white
+                font-size: 26px
+                transform: translate(-2px,1px)
+
+        &:last-of-type
+            display: flex
+            flex-direction: row
+            align-items: center
+            justify-content: space-between
+            height: 100%
+            width: fit-content
+            transform: translate(12px, 8px)
+            gap: 12px
+
+            a
+                text-decoration: none
+                color: white
+                font-size: 10px
+                height: 42px
+                width: 60px
+                border-top-left-radius: 3px
+                border-top-right-radius: 3px
+                display: flex
+                align-items: center
+                justify-content: center
+                flex-shrink: 0
+
+
+
+                &:hover
+                    background-color: $hover-grey
+                    transform: scale(1.1)
+
+.active
+    background-color: $bg-blue                
+
+
+            
+
+    
