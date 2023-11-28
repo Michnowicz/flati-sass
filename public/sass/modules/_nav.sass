@@ -1,17 +1,19 @@
 nav
     width: $screenWidth
-    height: 60px
+    height: fit-content
     background-color: $bg-grey
     display: flex
     flex-direction: row
     gap: 5%
+    overflow: hidden
+    flex-wrap: wrap
 
     div
+        height: 60px
         &:first-of-type
             display: flex
             justify-content: center
             align-items: center
-            height: 100%
             width: 40%
 
             p
@@ -24,7 +26,6 @@ nav
             flex-direction: row
             align-items: center
             justify-content: space-between
-            height: 100%
             width: fit-content
             transform: translate(12px, 8px)
             gap: 12px
